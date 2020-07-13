@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+class Food extends StatefulWidget {
+  static const String id = "Food";
+
+  @override
+  _FoodState createState() => _FoodState();
+}
+
+class _FoodState extends State<Food> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Food'),
+      ),
+    );
+  }
+}
